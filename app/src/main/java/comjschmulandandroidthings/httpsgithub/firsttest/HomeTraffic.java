@@ -45,5 +45,7 @@ public class HomeTraffic extends FragmentActivity implements OnMapReadyCallback 
         mMap.setTrafficEnabled(true);
         mMap.setMapType(googleMap.MAP_TYPE_HYBRID);
         mMap.setBuildingsEnabled(true);
+        mMap.animateCamera( CameraUpdateFactory.zoomTo( 17.0f ) );
+
     }
 }
